@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Games_Stats">
+
+    <TextView
+        android:id="@+id/gameStats"
+        android:layout_width="403dp"
+        android:layout_height="551dp"
+        android:text="At Cruising speed, an airplane releases 90kg of Carbon Dioxide per hour. This is
+equal to roughly 300 miles on a car, or 1250 bananas. \n
+During the time you used to play the in-losable plane game, maybe a minute,
+that is equivalent to 1.5kg of CO2 per plane, or 1.5 days of human exhaling CO2. \n
+So, keep that in mind everytime you fly."
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

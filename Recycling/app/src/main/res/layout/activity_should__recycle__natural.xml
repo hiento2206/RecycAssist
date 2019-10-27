@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Should_Recycle_Natural">
+
+    <Button
+        android:id="@+id/natural1"
+        android:layout_width="271dp"
+        android:layout_height="165dp"
+        android:text="Food"
+        app:layout_constraintBottom_toTopOf="@+id/natural2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/natural2"
+        android:layout_width="271dp"
+        android:layout_height="165dp"
+        android:text="Feces"
+        app:layout_constraintBottom_toTopOf="@+id/natural3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natural1" />
+
+    <Button
+        android:id="@+id/natural3"
+        android:layout_width="271dp"
+        android:layout_height="165dp"
+        android:text="Outdoors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natural2" />
+
+    <TextView
+        android:id="@+id/naturalView"
+        android:layout_width="346dp"
+        android:layout_height="374dp"
+        android:text=""
+        android:textSize="40dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"  />
+</android.support.constraint.ConstraintLayout>

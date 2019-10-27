@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Should_Recycle_Chemical">
+
+    <Button
+        android:id="@+id/chemical1"
+        android:layout_width="211dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="24dp"
+        android:text="Cleaning supply"
+        app:layout_constraintBottom_toTopOf="@+id/chemical2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <Button
+        android:id="@+id/chemical2"
+        android:layout_width="211dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="24dp"
+        android:text="Oil"
+        app:layout_constraintBottom_toTopOf="@+id/chemical3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/chemical3"
+        android:layout_width="211dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="52dp"
+        android:text="Hazardous or biological waste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/chemicalView"
+        android:layout_width="346dp"
+        android:layout_height="374dp"
+        android:text=""
+        android:textSize="40dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+</android.support.constraint.ConstraintLayout>

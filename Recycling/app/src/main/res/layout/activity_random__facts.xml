@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_random_facts"
+    tools:context=".Random_Facts">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Random Facts Generator"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textRand"
+        android:layout_width="392dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text=""
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/buttonRand"
+        android:layout_width="215dp"
+        android:layout_height="94dp"
+        android:text="Generate"
+        android:layout_marginBottom = "56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
